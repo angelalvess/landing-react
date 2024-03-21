@@ -11,27 +11,27 @@ function Navbar() {
 
   return (
     <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
-      <h1 className="w-full text-3xl font-bold text-[#677f77]">REACT.</h1>
+      <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
 
       <ul className="hidden md:flex">
-        <li className="p-4">
+        <li className="p-4 font-semibold ">
           <a href="#">HOME</a>
         </li>
 
-        <li className="p-4">
+        <li className="p-4 font-semibold">
           <a href="#">COMPANY</a>
         </li>
 
-        <li className="p-4">
+        <li className="p-4 font-semibold">
           <a href="#">RESOURCES</a>
         </li>
 
-        <li className="p-4">
+        <li className="p-4 font-semibold">
           <a href="#">CONTACT</a>
         </li>
 
-        <li className="p-3">
-          <button className="bg-[#00df9a] w-[100px] rounded-md font-medium  py-1 text-black">
+        <li className="p-3 ">
+          <button className="bg-[#00df9a] w-[100px] rounded-md font-medium  py-1 text-black hover:bg-[#4be4b3]">
             Get Started
           </button>
         </li>
@@ -43,7 +43,7 @@ function Navbar() {
 
       <div
         className={
-          !nav
+          nav
             ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500'
             : 'fixed left-[-100%]'
         }
