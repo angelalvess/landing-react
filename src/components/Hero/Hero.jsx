@@ -7,7 +7,7 @@ function Hero() {
         <p className="text-[#00df9a] font-bold p-2">
           GROWING WITH DATA ANALYTICS
         </p>
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
+        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-4">
           Grow with data.
         </h1>
 

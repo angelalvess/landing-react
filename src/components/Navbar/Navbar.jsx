@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
+      <h1 className="w-full text-3xl font-bold text-[#677f77]">REACT.</h1>
 
       <ul className="hidden md:flex">
         <li className="p-4">
@@ -27,15 +27,11 @@ function Navbar() {
         </li>
 
         <li className="p-4">
-          <a href="#">ABOUT</a>
-        </li>
-
-        <li className="p-4">
           <a href="#">CONTACT</a>
         </li>
 
         <li className="p-3">
-          <button className="bg-white w-[100px] rounded-md font-medium py-1 text-black">
+          <button className="bg-[#00df9a] w-[100px] rounded-md font-medium  py-1 text-black">
             Get Started
           </button>
         </li>
