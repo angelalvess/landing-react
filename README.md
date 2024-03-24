@@ -1,3 +1,3 @@
 # Landing Page 💻
 
-Developed with React js and Tailwind.
+Developed with React js and Tailwind
